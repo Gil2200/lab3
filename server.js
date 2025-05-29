@@ -5,7 +5,7 @@ const upload = multer();
 const path = require('path');
 const app = express();
 const dbConfig = {
-    host: "pipg.snos.ru",
+    host: "pg.snos.ru",
     port: 5432,
     user: "postgres",
     password: "",
